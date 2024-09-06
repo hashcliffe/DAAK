@@ -4,7 +4,7 @@ import google.generativeai as genai
 
 app = Flask(__name__)
 
-genai.configure(api_key="AIzaSyA9GDVgW4BuccKXTSS3oGlmjm4lwEu8YTs")
+genai.configure(api_key="KEY")
 
 generation_config = {
   "temperature": 1,
